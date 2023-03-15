@@ -69,5 +69,5 @@ if (firstMatrixColumns == secondMatrixRows)
     int[,] totalMatrix = TotalMatrix(firstCreateMatrixRandomNat, secondCreateMatrixRandomNat, firstMatrixRows, secondMatrixColumns);
     PrintMatrix(totalMatrix);
 }
-else Console.WriteLine("Ошибка");
+else Console.WriteLine("Ошибка, количество столбцов первой матрицы должно совпадать с количеством строк второй матрицы");
 
